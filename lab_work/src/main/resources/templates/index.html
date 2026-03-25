@@ -282,6 +282,19 @@
                     </div>
                 </div>
                 <div class="input-group">
+                    <label>Материал диэлектрика</label>
+                    <select id="dielectricMaterial">
+                        <option value="1.0">Вакуум / Воздух (ε = 1.0)</option>
+                        <option value="2.2">Бумага (ε = 3.0)</option>
+                        <option value="2.5">Полиэтилен (ε = 2.5)</option>
+                        <option value="4.5">Стекло (ε = 4.5)</option>
+                        <option value="5.0">Слюда (ε = 5.0)</option>
+                        <option value="5.0">Масло касторовое (ε = 4.6)</option>
+                        <option value="6.0">Фарфор (ε = 6.0)</option>
+                        <option value="80">Вода (дистиллированная) (ε = 80)</option>
+                    </select>
+                </div>
+                <div class="input-group">
                     <label>Расстояние между пластинами d <span>(мм)</span></label>
                     <div class="slider-wrapper">
                         <input type="range" id="flatDistanceSlider" min="0.5" max="15" step="0.1" value="2.5">
